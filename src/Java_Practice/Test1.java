@@ -1,3 +1,5 @@
+package Java_Practice;
+
 public class Test1 {
     public static void main(String[] args) {
         int marks = 65;

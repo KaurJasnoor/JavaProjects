@@ -1,6 +1,8 @@
+package Java_Assignments;
+
 public class Calculator {
     public static void main(String[] args){
-        System.out.println("Welcome to my Calculator");
+        System.out.println("Welcome to my Java_Assignments.Calculator");
         char input = '-';
         double x = 10;
         double y = 20;
@@ -10,7 +12,7 @@ public class Calculator {
         }
         else if (input == '-'){
             double sub = x - y;
-            System.out.println("Subtraction of x and y  "+ sub);
+            System.out.println("Java_Practice.Subtraction of x and y  "+ sub);
         }
         else if (input == '/'){
             double div = x / y;

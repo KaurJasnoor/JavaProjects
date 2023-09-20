@@ -1,3 +1,5 @@
+package Java_Practice;
+
 public class Planets {
     public static void main(String[] args){
         System.out.println("Mercury");

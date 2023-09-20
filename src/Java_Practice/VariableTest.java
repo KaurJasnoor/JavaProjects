@@ -1,3 +1,5 @@
+package Java_Practice;
+
 public class VariableTest {
     public static void main(String[] args){
         int age = 25;

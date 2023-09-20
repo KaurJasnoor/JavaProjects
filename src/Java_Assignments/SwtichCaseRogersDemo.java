@@ -1,3 +1,5 @@
+package Java_Assignments;
+
 import java.util.Scanner;
 
 public class SwtichCaseRogersDemo {

@@ -1,3 +1,5 @@
+package Java_Practice;
+
 public class Division {
     public static void main(String[] args){
         int num1 = 100;
