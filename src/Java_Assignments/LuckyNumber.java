@@ -6,11 +6,12 @@ public class LuckyNumber {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
         int myLuckyNumber = 13;
+
         System.out.println("Enter a number : ");
-        int number;
-        while ((number = scanner.nextInt()) != myLuckyNumber) {
+        int guess;
+        while ((guess = scanner.nextInt()) != myLuckyNumber) {
             System.out.println("Sorry, Try your luck again: ");
         }
-            System.out.println("Great!," + number + " is your lucky number.");
+            System.out.println("Great!," + guess + " is your lucky number.");
     }
 }
