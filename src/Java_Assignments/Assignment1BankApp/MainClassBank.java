@@ -23,16 +23,16 @@ public class MainClassBank {
             if (choice == 'a'){
                 bankApp.checkingBalance();
             }
-            if(choice == 'b'){
+            else if(choice == 'b'){
                 bankApp.deposit();
             }
-            if(choice == 'c'){
+            else if(choice == 'c'){
                 bankApp.withdrawal();
             }
-            if(choice == 'd'){
+            else if(choice == 'd'){
                 bankApp.printSummary();
             }
-            if(choice == 'e'){
+            else if(choice == 'e'){
                 System.out.println("Exit");
                 break;
             }
