@@ -15,17 +15,19 @@ public class CustomizedList {
         list.add(new Student("PQR", 30));
 
         // for each
-        /*for (Student s: list) {
+        for (Student s: list) {
             if(s.getAge() >40){
                 System.out.println(s.getName());
             }
-        }*/
+        }
 
         // Iterator
         Iterator<Student> iterator = list.iterator();
         while (iterator.hasNext()){
-
+            System.out.println(iterator.next());
         }
+
+
 
 
 
