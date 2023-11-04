@@ -22,9 +22,5 @@ public class MainProb2 {
         //Push Methods calling...
         pushNotify.pushNotification();
         pushNotify.sendNotification("Message has been sent. ");
-
-
-
-
     }
 }
